@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom right, #e6ffff, white);
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: inline-block;
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom right, darkblue, cyan);
+    border-radius: 5px;
+    width: 550px;
+    background-color: #333;
+    position: sticky;
+    margin-bottom: 20px;
+    top: 0;
+left: 31.9%;
+right: 31.9%;
+}
+nav a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    line-height: 30px;
+    width: 100px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+nav :hover{
+background-color:  #7676d8;
+border-radius: 5px;
+}
+
+
+#Home, .am , #servi {
+display: block;
+background-color: #4352d6;
+text-align: center;
+padding: 2%;
+border-radius: 20px;
+margin-left: 31.65%;
+margin-right: 31.65%;
+margin-top: 35px;
+border: 3px groove green;
+color: white;
+min-width: fit-content;
+
+}
+#Home p{
+
+  border-top: 3px black solid;
+    margin: 0%;
+    padding-top: 5px;
+}
+
+.am {
+background-color: rgba(108, 154, 255, 0.582);
+text-align: justify;
+color: black;
+padding-top: 5px;
+min-width: fit-content;
+
+}
+
+
+
+.am h2{
+    text-align: center;
+}
+    
+.am p{
+
+    text-decoration: none;
+}
+
+ table , tr , td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr:hover {background-color: #adadad;}
+
+#servi {
+background-color: rgb(191, 236, 250);
+padding-top: 5px;
+padding-bottom: 5px;
+color: black;
+min-width: fit-content;
+
+}
+
+#servi ul,li {
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#servi img {
+width: 100%;
+height: 100%;
+box-shadow: black 7px 4px;
+border: 1px solid black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px; 
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-style: italic;
+    font-size:080%;
+}
+
+video {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 75px;
+border:1px double darkcyan;
+box-shadow: black 7px 3px;
+width: 550px;
+}
+
+.am h3{
+    text-align: center;
+}
+form label{
+font-weight: bold;
+}
+form input{
+border: 1px black solid;
+width: 230px;
+background-color: rgba(240, 243, 248, 0.582);
+
+
+}
+form select{
+    width: 239px;
+    background-color: rgba(240, 243, 248, 0.582);
+    border: 1px black solid;
+ 
+}
+form textarea {
+    background-color: rgba(240, 243, 248, 0.582);
+    border: 1px black solid;
+
+}
+
+
+
+
